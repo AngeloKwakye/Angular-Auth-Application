@@ -48,14 +48,17 @@ export class RegisterComponent implements OnInit {
         .registerSave(this.registrationform.value)
         .subscribe((result) => {
           console.log(result);
-          this.snackbar.open(
-            'Please contact Admin to enable access',
-            'Registration successfully!'
-          );
+          this.snackbar.open('Please contact Admin to enable access Registration successfully!','Dismiss',{
+            duration: 3000,
+            panelClass: 'my-snackbar'
+          })
           this.router.navigate(['login']);
         });
     } else {
-      this.snackbar.open('Please enter valid data');
+      this.snackbar.open('Please Enter Valid Data','Dismiss',{
+        duration: 3000,
+        panelClass: 'my-snackbar'
+      })
     }
   }
 }

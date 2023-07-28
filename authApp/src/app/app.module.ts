@@ -17,6 +17,12 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
+import { MatRadioModule } from "@angular/material/radio";
+import { MatToolbarModule } from "@angular/material/toolbar";
+import { MatTableModule } from '@angular/material/table';
+import { EditdialogComponent } from './editdialog/editdialog.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [
@@ -26,6 +32,7 @@ import { MatCardModule } from '@angular/material/card';
     HomeComponent,
     UserlistComponent,
     AddEditUserComponent,
+    EditdialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,6 +46,11 @@ import { MatCardModule } from '@angular/material/card';
     MatButtonModule,
     MatInputModule,
     MatCardModule,
+    MatRadioModule,
+    MatToolbarModule,
+    MatTableModule,
+    MatDialogModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent],

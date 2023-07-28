@@ -1,3 +1,131 @@
 {
-  "user": []
+  "user": [
+    {
+      "id": "admin",
+      "name": "Administrator",
+      "password": "@Win123",
+      "email": "Admin@live.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "uncle daddy",
+      "name": "Adjanor Samuel",
+      "password": "@Give11",
+      "email": "samuel@live.com",
+      "gender": "male",
+      "role": "Consultant",
+      "isactive": true
+    },
+    {
+      "id": "bad girl bribri",
+      "name": "Bridget Sakyi",
+      "password": "?baDgirl1l2",
+      "email": "seasan@line.com",
+      "gender": "female",
+      "role": "Consultant",
+      "isactive": true
+    },
+    {
+      "id": "konzi",
+      "name": "Mark Arongo",
+      "password": "!letsGo12",
+      "email": "bigbig@livehub.com",
+      "gender": "male",
+      "role": "Staff",
+      "isactive": true
+    },
+    {
+      "id": "little",
+      "name": "Ebenezer Nyarko",
+      "password": "liTz!24",
+      "email": "eben@livehub.com",
+      "gender": "male",
+      "role": "Staff",
+      "isactive": true
+    },
+    {
+      "id": "saviola",
+      "name": "Mark Baah",
+      "password": "2oPan$yi8",
+      "email": "eben@livehub.com",
+      "gender": "male",
+      "role": "Consultant",
+      "isactive": true
+    },
+    {
+      "id": "biggles",
+      "name": "Oppong Prince",
+      "password": "Sugar1#2",
+      "email": "jaxh@livehub.com",
+      "gender": "male",
+      "role": "Consultant",
+      "isactive": true
+    },
+    {
+      "id": "maame kanga",
+      "name": "Esther Nyarko",
+      "password": "Bigs1%3",
+      "email": "something@livehub.com",
+      "gender": "female",
+      "role": "Staff",
+      "isactive": true
+    },
+    {
+      "id": "ampedu",
+      "name": "Parry Osae",
+      "password": "finessE&67",
+      "email": "parri@bingohub.com",
+      "gender": "male",
+      "role": "Staff",
+      "isactive": true
+    },
+    {
+      "id": "zak",
+      "name": "Zack",
+      "password": "2oPan$yi8",
+      "email": "za@livehub.com",
+      "gender": "male",
+      "role": "Consultant",
+      "isactive": true
+    },
+    {
+      "id": "connection",
+      "name": "Vital Incoom",
+      "password": "Konect&70",
+      "email": "connectionman@livehub.com",
+      "gender": "male",
+      "role": "staff",
+      "isactive": true
+    },
+    {
+      "id": "edem",
+      "name": "Edem Odame",
+      "password": "eddieW!257",
+      "email": "odds@livehub.com",
+      "gender": "male",
+      "role": "Consultant",
+      "isactive": true
+    },
+    {
+      "id": "rasta",
+      "name": "D'Angelo Kwakye",
+      "password": "&Deepsea5",
+      "email": "sobe@limelive.com",
+      "gender": "male",
+      "role": "Consultant",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "id": "Consultant",
+      "name": "Staff"
+    },
+    {
+      "id": "Developer",
+      "name": "Contractor"
+    }
+  ]
 }

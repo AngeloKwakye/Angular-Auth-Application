@@ -1,1 +1,40 @@
-<p>login works!</p>
+
+<div class="container">  
+    <div>
+      <mat-card class="card mat-elevation-z8">
+        <mat-card-header class="card-header">
+          <h1>User Login</h1>
+        </mat-card-header>
+        <mat-card-content class="sub-container">
+          <form
+            class="example-form"
+            [formGroup]="loginform"
+            (ngSubmit)="login()"
+          >
+            <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>User Name</mat-label>
+              <input matInput formControlName="username" />
+            </mat-form-field>
+    
+            <mat-form-field class="example-full-width" appearance="fill">
+              <mat-label>Password</mat-label>
+              <input
+                matInput
+                type="password"
+                placeholder="password"
+                formControlName="password"
+              />
+            </mat-form-field>
+    
+            <div class="button-space">
+              <button mat-raised-button [disabled]="loginform.invalid" class="submit-btn">Login</button>
+              <a class="back-login-btn" routerLink="/register" mat-raised-button color="accent"
+                >New Here?</a
+              >
+            </div>
+          </form>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    
+  </div>

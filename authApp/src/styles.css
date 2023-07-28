@@ -5,4 +5,15 @@ body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+.my-snackbar {
+  background-color: rgb(101, 67, 4);
+  color: #ffffff; /* Change this to your desired text color */
+}
+
+.mat-simple-snackbar-action {
+  background-color: rgb(149, 97, 1);
+  color: #ffffff !important; /* Change this to your desired action button text color */
 }

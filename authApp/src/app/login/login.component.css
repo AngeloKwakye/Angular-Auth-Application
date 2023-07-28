@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91%;
+    background-color: wheat;
+  }
+ 
+  .card {
+    width: 400px; /* You can adjust the width as needed */
+    height: 60%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: wheat;
+  }
+  .card-header{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 15px;
+  }
+  
+  .example-form {
+    min-width: 1;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  .button-space {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .radio-btns {
+    padding-top: 5px;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+  }
+  .submit-btn{
+    background-color: rgb(190, 124, 0);
+    color: white;
+  }
+  .back-login-btn{
+    background-color: rgb(101, 67, 4);
+    color: white;
+  }
+  
+  :host ::ng-deep .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle, .mat-radio-outer-circle {
+    border-color:  rgb(101, 67, 4) !important;
+    /* Sets outer circle & click effect color */
+  }
+  :host ::ng-deep .mat-radio-button.mat-accent .mat-radio-inner-circle {
+    background-color:  rgb(101, 67, 4) !important;
+    /* Sets inner circle color */
+  }
+  

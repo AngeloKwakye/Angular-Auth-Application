@@ -1,0 +1,30 @@
+.example-form {
+    min-width: 100px;
+    max-width: 700px;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .button-space {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  .submit-btn{
+    background-color: rgb(190, 124, 0);
+    color: white;
+  }
+  .back-login-btn{
+    background-color: rgb(101, 67, 4);
+    color: white;
+  }
+  .example-margin {
+    margin: 0 12px;
+  }
+
+  :host ::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background {
+    background-color: rgb(190, 124, 0);
+  }
+  

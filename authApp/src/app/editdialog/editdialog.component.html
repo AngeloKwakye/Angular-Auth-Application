@@ -1,0 +1,33 @@
+
+      <mat-card class="card mat-elevation-z8">
+        <mat-card-header class="card-header">
+          <h1>Update User</h1>
+        </mat-card-header>
+        <mat-card-content class="sub-container">
+          <form
+            class="example-form"
+            [formGroup]="editform"
+          >
+    
+            <mat-form-field class="example-full-width" appearance="fill">
+              <mat-label>Role</mat-label>
+              <mat-select formControlName="role">
+                <mat-option *ngFor="let item of rolelist" [value]="item.id">
+                  {{item.name}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+            <div>
+                <mat-checkbox formControlName="isactive" class="example-margin">Is Active</mat-checkbox>
+            </div>
+    
+            <div class="button-space">
+              <button mat-raised-button [disabled]="editform.invalid" (click)="updateUser()" class="submit-btn">Update</button>
+              <a class="back-login-btn" mat-dialog-close mat-raised-button color="accent"
+                >Close</a
+              >
+            </div>
+          </form>
+        </mat-card-content>
+      </mat-card>
+  

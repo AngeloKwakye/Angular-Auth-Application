@@ -12,6 +12,10 @@ export class AuthService {
     return this.http.get(this.apiurl);
   }
 
+  getAllroles() {
+    return this.http.get('http://localhost:3000/role');
+  }
+
   getbyid(id: any) {
     return this.http.get(`${this.apiurl}/${id}`);
   }
@@ -22,5 +26,16 @@ export class AuthService {
 
   updateUser(data: any, id: any) {
     return this.http.put(`${this.apiurl}/${id}`, data);
+  }
+
+
+
+
+  isLoggedIn(){
+    return sessionStorage.getItem('username')!=null;
+  }
+
+  getUserRole(){
+    return sessionStorage.getItem('userrole')!=null ? sessionStorage.getItem('userrole')?.toString() : '';
   }
 }
