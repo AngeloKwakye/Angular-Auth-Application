@@ -4,7 +4,7 @@
       "id": "admin",
       "name": "Administrator",
       "password": "@Win123",
-      "email": "Admin@live.com",
+      "email": "admin@live.com",
       "gender": "male",
       "role": "admin",
       "isactive": true
@@ -52,7 +52,7 @@
       "email": "eben@livehub.com",
       "gender": "male",
       "role": "Consultant",
-      "isactive": true
+      "isactive": false
     },
     {
       "id": "biggles",
@@ -115,6 +115,15 @@
       "email": "sobe@limelive.com",
       "gender": "male",
       "role": "Consultant",
+      "isactive": true
+    },
+    {
+      "id": "trvptaylor",
+      "name": "Samuel Taylor",
+      "password": "Kuks@T123",
+      "email": "trvp@trvptaylor.com",
+      "gender": "male",
+      "role": "Developer",
       "isactive": true
     }
   ],

@@ -41,21 +41,20 @@
   }
 </style>
 <div class="container">
-  
-
   <mat-toolbar class="tool-bar">
   <button mat-icon-button class="favorite-icon" aria-label="icon-button with heart icon">
       <mat-icon>favorite</mat-icon>
       </button>
-  <span>My Group 7 CRUD App</span>
+  <span>My Group 7 Auth App</span>
 <div *ngIf="menurequired">
   <a routerLink=""> Home </a>
-  <a *ngIf="adminuser" routerLink="/user"> User </a>
+  <a *ngIf="adminuser" routerLink="/user"> Users </a>
 </div>
-<span class="spacer"></span>
-<a routerLink="/login"> Logout </a>
+  <span class="spacer"></span>
+<a *ngIf="menurequired" routerLink="/login"> Logout </a>
 </mat-toolbar>
 
-
 <router-outlet></router-outlet>
+
+<app-footer></app-footer>
 </div>

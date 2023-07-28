@@ -40,6 +40,10 @@ export class LoginComponent implements OnInit {
               sessionStorage.setItem('username', this.userdata.id);
               sessionStorage.setItem('userrole', this.userdata.role);
               this.router.navigate(['']);
+              this.snackbar.open('Welcome!','Dismiss',{
+                duration: 3000,
+                panelClass: 'my-snackbar'
+              })
             }else{
               this.snackbar.open('In active User \n Please contact admin for access','Dismiss',{
                 duration: 3000,

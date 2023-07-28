@@ -6,7 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
+
+
+  welcome = [
+    'Hello!',
+    'Welcome to My Angular Authentication Application',
+
+  ]
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    console.log(this.welcome)
+  }
 }

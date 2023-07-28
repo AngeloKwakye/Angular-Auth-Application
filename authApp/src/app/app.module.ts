@@ -23,6 +23,7 @@ import { MatTableModule } from '@angular/material/table';
 import { EditdialogComponent } from './editdialog/editdialog.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     UserlistComponent,
     AddEditUserComponent,
     EditdialogComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
