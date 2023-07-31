@@ -15,16 +15,7 @@
       "password": "@Give11",
       "email": "samuel@live.com",
       "gender": "male",
-      "role": "Consultant",
-      "isactive": true
-    },
-    {
-      "id": "bad girl bribri",
-      "name": "Bridget Sakyi",
-      "password": "?baDgirl1l2",
-      "email": "seasan@line.com",
-      "gender": "female",
-      "role": "Consultant",
+      "role": "Contructor",
       "isactive": true
     },
     {
@@ -51,17 +42,8 @@
       "password": "2oPan$yi8",
       "email": "eben@livehub.com",
       "gender": "male",
-      "role": "Consultant",
+      "role": "Contructor",
       "isactive": false
-    },
-    {
-      "id": "biggles",
-      "name": "Oppong Prince",
-      "password": "Sugar1#2",
-      "email": "jaxh@livehub.com",
-      "gender": "male",
-      "role": "Consultant",
-      "isactive": true
     },
     {
       "id": "maame kanga",
@@ -70,6 +52,33 @@
       "email": "something@livehub.com",
       "gender": "female",
       "role": "Staff",
+      "isactive": true
+    },
+    {
+      "id": "biggles",
+      "name": "Oppong Prince",
+      "password": "Sugar1#2",
+      "email": "jaxh@livehub.com",
+      "gender": "male",
+      "role": "Contructor",
+      "isactive": true
+    },
+    {
+      "id": "edem",
+      "name": "Edem Odame",
+      "password": "eddieW!257",
+      "email": "odds@livehub.com",
+      "gender": "male",
+      "role": "Staff",
+      "isactive": true
+    },
+    {
+      "id": "bad girl bribri",
+      "name": "Bridget Sakyi",
+      "password": "?baDgirl1l2",
+      "email": "seasan@line.com",
+      "gender": "female",
+      "role": "Contructor",
       "isactive": true
     },
     {
@@ -87,7 +96,7 @@
       "password": "2oPan$yi8",
       "email": "za@livehub.com",
       "gender": "male",
-      "role": "Consultant",
+      "role": "Contructor",
       "isactive": true
     },
     {
@@ -96,16 +105,7 @@
       "password": "Konect&70",
       "email": "connectionman@livehub.com",
       "gender": "male",
-      "role": "staff",
-      "isactive": true
-    },
-    {
-      "id": "edem",
-      "name": "Edem Odame",
-      "password": "eddieW!257",
-      "email": "odds@livehub.com",
-      "gender": "male",
-      "role": "Consultant",
+      "role": "Staff",
       "isactive": true
     },
     {
@@ -114,7 +114,7 @@
       "password": "&Deepsea5",
       "email": "sobe@limelive.com",
       "gender": "male",
-      "role": "Consultant",
+      "role": "Contructor",
       "isactive": true
     },
     {
@@ -123,17 +123,17 @@
       "password": "Kuks@T123",
       "email": "trvp@trvptaylor.com",
       "gender": "male",
-      "role": "Developer",
+      "role": "Staff",
       "isactive": true
     }
   ],
   "role": [
     {
-      "id": "Consultant",
+      "id": "Staff",
       "name": "Staff"
     },
     {
-      "id": "Developer",
+      "id": "Contructor",
       "name": "Contractor"
     }
   ]
