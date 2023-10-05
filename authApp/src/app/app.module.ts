@@ -20,10 +20,10 @@ import { MatCardModule } from '@angular/material/card';
 import { MatRadioModule } from "@angular/material/radio";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatTableModule } from '@angular/material/table';
-import { EditdialogComponent } from './editdialog/editdialog.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { FooterComponent } from './footer/footer.component';
+import { EditdialogComponent } from './editdialog/editdialog.component';
 
 @NgModule({
   declarations: [
@@ -33,8 +33,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     UserlistComponent,
     AddEditUserComponent,
-    EditdialogComponent,
     FooterComponent,
+    EditdialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,7 +54,7 @@ import { FooterComponent } from './footer/footer.component';
     MatDialogModule,
     MatCheckboxModule
   ],
-  providers: [],
+  providers: [EditdialogComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

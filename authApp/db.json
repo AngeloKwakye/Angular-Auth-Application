@@ -125,6 +125,15 @@
       "gender": "male",
       "role": "Staff",
       "isactive": true
+    },
+    {
+      "id": "ruthh",
+      "name": "Ruth IE",
+      "password": "@Lussy22",
+      "email": "ruths@glive.com",
+      "gender": "female",
+      "role": "Staff",
+      "isactive": true
     }
   ],
   "role": [

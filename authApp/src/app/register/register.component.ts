@@ -49,7 +49,7 @@ export class RegisterComponent implements OnInit {
         .subscribe((result) => {
           console.log(result);
           this.snackbar.open('Please contact Admin to enable access Registration successfully!','Dismiss',{
-            duration: 3000,
+            duration: 5000,
             panelClass: 'my-snackbar'
           })
           this.router.navigate(['login']);
